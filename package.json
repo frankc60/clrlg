@@ -1,0 +1,29 @@
+{
+  "name": "clrlg",
+  "version": "0.0.1",
+  "description": "Color Log",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "logging",
+    "color",
+    "colour",
+    "log"
+  ],
+  "author": "frankc60",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankc60/clrlg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/frankc60/clrlg/issues"
+  },
+  "homepage": "https://github.com/frankc60/clrlg#readme"
+}
