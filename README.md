@@ -7,8 +7,8 @@ $ npm install clrlg
 ```
 
 ##Usage
-```
-const c = require('clrlg');
+
+```const c = require('clrlg');
  
 c.lg("default color");
 
