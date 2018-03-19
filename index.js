@@ -3,13 +3,23 @@ const ts      = require("moment");
 
 let pfx;
 
+let _obj = null; //singleton pattern
+
 class clrlg {
   constructor() {
-  this._timestamp = false;
-  this.timestampFormat= "";;
-  this.writeToFile= true;
-  this.filePath= "c.log"; //working on
-}
+    if(!_obj) {
+      _obj = this;
+
+      this._timestamp = false;
+      this.timestampFormat= "";
+      this.writeToFile= true;
+      this.filePath= "c.log"; //working on
+      
+    }
+    else { 
+      return _obj;
+    }
+  }
 
 set timestamp(val) {
   if(typeof(val) === "boolean") this._timestamp = val;
@@ -25,7 +35,7 @@ get timestamp() {
       this.lg(`${p} = ${this[p]}`);
       return;
     }
-    Object.keys(this).forEach((key,ind) => {
+    Object.keys(this).forEach((key,i) => {
       //if(key == p && p != undefined){
       //} 
       if({}.toString.call(this[key]) != "[object Function]") {
