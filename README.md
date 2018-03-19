@@ -1,5 +1,5 @@
 # clrlg
-Color Logging
+Color Logging with timers and other functionality.
 
 ##Install
 ```
@@ -8,9 +8,14 @@ $ npm install clrlg
 
 ##Usage
 
-```const c = require('clrlg');
- 
+```
+const clrlg = require("clrlg");
+
+let c = new clrlg();
+
 c.lg("default color");
+
+c.timestamp = true; 
 
 c.lg("red","red");
 
@@ -19,6 +24,7 @@ c.lg("yellow","yellow");
 c.lg("blue","blue");
 
 c.lg("green","green");
+c.timestamp = false; 
 
 c.lg("magenta","magenta");
 
@@ -28,5 +34,11 @@ c.lg("white","white");
 
 c.lg("cyan","cyan");
 
-c.lg("fish color","fish");
+
+c.lg("orange","blsddsue");
+
+c.start("a");
+setTimeout(()=>{c.end("a")},5525);
+
+
 ```

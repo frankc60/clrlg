@@ -1,6 +1,6 @@
 {
   "name": "clrlg",
-  "version": "0.0.3",
+  "version": "0.0.52",
   "description": "Color Log",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,8 @@
   "author": "frankc60",
   "license": "ISC",
   "dependencies": {
-    "colors": "^1.2.1"
+    "colors": "^1.2.1",
+    "moment": "^2.21.0"
   },
   "devDependencies": {},
   "repository": {
