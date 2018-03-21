@@ -4,7 +4,7 @@
   "description": "Color Log",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "logging",
@@ -18,7 +18,9 @@
     "colors": "^1.2.1",
     "moment": "^2.21.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "^5.0.4"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/frankc60/clrlg.git"
