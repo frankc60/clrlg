@@ -9,8 +9,7 @@ Require the clrlg inside your node app, and then use it instead of the standard 
 
 ### Prerequisites
 
-From the console, within 
-
+To install the module before using it inside your project. 
 ```
 $ npm install clrlg --save
 ```
@@ -94,7 +93,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Frank C** - *Initial work* - [PurpleBooth](https://github.com/frankc60)
+* **Frank C** - *work in progress* - [GitHub](https://github.com/frankc60)
 
 See also the list of [contributors](https://github.com/frankc60/clrlg/contributors) who participated in this project.
 
