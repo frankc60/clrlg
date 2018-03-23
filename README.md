@@ -84,14 +84,22 @@ setTimeout(() => {
 },5500); //stop timers - after 5.5 seconds
 ```
 
+## Running the tests
+
+Mocha is used to unit test clrlg. Currently this is minimalistic, and proves the build is successful. From the command line:
+```
+npm test
+```
+
 ## Built With
 
+* [Mocha](https://mochajs.org/) - JavaScript test framework.
 * [colors](https://www.npmjs.com/package/colors) - Color outputs.
 * [Moment.js](http://momentjs.com/) - Dates and Times in JS.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. Contact me at [GitHub](https://github.com/frankc60) if you would like to contribute.
 
 ## Versioning
 
