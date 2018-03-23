@@ -1,4 +1,3 @@
-
 # clrlg
 
 Color Logging with timers and other functionality to the console.
@@ -11,13 +10,13 @@ Require the clrlg inside your node app, and then use it instead of the standard 
 ### Installing
 
 To install the module before using it inside your project. We recommend installing it globally (-g)
-```
-$ npm install -g clrlg 
+
+```$ npm install -g clrlg 
 ```
 
 To install just for your current project, from the project folder:
-```
-$ npm install --save clrlg 
+
+```$ npm install --save clrlg 
 ```
 
 ### Using
@@ -25,23 +24,23 @@ $ npm install --save clrlg
 To use clrlg inside your project. 
 
 In your code Require the installed module.
-```
-const clrlg = require("clrlg");
+
+```const clrlg = require("clrlg");
 ```
 
 Assign a variable to the constructor.
-```
-let c = new clrlg();
+
+```let c = new clrlg();
 ```
 
 Now output from anywhere in your code.
-```
-c.lg("default color output");
+
+```c.lg("default color output");
 ```
 
 Output different colors.
-```
-c.lg("red","red"); //add second parameter of color
+
+```c.lg("red","red"); //add second parameter of color
 
 c.lg("yellow","yellow");
 
@@ -61,8 +60,8 @@ c.lg("non color","fishcolor"); //enter a non existent color.
 ```
 
 Output timestamp prefix.
-```
-c.timestamp = true; //turn on prefix timestamp
+
+```c.timestamp = true; //turn on prefix timestamp
 
 c.lg("output some text");
 
@@ -76,8 +75,8 @@ c.lg("blue without timestamp prefix","blue");
 ```
 
 Setup a timer.
-```
-c.start("a"); //start timer
+
+```c.start("a"); //start timer
 
 setTimeout(() => {
   c.end("a");
@@ -87,8 +86,8 @@ setTimeout(() => {
 ## Running the tests
 
 Mocha is used to unit test clrlg. Currently this is minimalistic, and proves the build is successful. From the command line:
-```
-npm test
+
+```npm test
 ```
 
 ## Built With
