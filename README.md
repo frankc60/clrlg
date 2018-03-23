@@ -3,18 +3,26 @@
 
 Console Color Logging with timers and other functionality.
 
+
 ## Getting Started
 
 Require the clrlg inside your node app, and then use it instead of the standard console.log. Give more meaning to your console output, by adding colors, and timers.
 
-### Prerequisites
-
-To install the module before using it inside your project. 
-```
-$ npm install clrlg --save
-```
 
 ### Installing
+
+To install the module before using it inside your project. We recommend installing it globally (-g)
+```
+$ npm install -g clrlg 
+```
+
+To install just for your current project, from the project folder.
+```
+$ npm install --save clrlg 
+```
+
+
+### Using
 
 To use clrlg inside your project. 
 
