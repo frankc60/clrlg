@@ -1,15 +1,15 @@
 # clrlg
 
-Color Logging with timers and other functionality to the console.
+Improve the standard console.log output by adding Color Logging, timers and timestamps. High performance and Easy to Setup and Use.
 
 
 ## Getting Started
 
-Require the clrlg inside your node app, and then use it instead of the standard console.log. Give more meaning to your console output, by adding colors, and timers.
+Require the **clrlg** into your node app, and then use it instead of the standard *console.log*. Give more meaning to your console output, by adding colors, and timers.
 
 ### Installing
 
-To install the module before using it inside your project. We recommend installing it globally (-g)
+To use the **clrlg** module you first need to install it into your app project. We recommend installing it globally (-g)
 
 ```
 $ npm install -g clrlg 
@@ -23,21 +23,21 @@ $ npm install --save clrlg
 
 ### Using
 
-To use clrlg inside your project. 
+To use **clrlg** inside your project app. 
 
-In your code Require the installed module.
+In your code include the installed module.
 
 ```
 const clrlg = require("clrlg");
 ```
 
-Assign a variable to the constructor.
+Now assign a variable to the constructor.
 
 ```
 let c = new clrlg();
 ```
 
-Now output from anywhere in your code using he **lg** method.
+Now output to the terminal from anywhere in your code using he **lg** method.
 
 ```
 c.lg("default color output");
@@ -46,8 +46,9 @@ c.lg("default color output");
 Output using many different colors with the second parameter.
 
 ```
-c.lg("color output","red|yellow|blue|green|magenta|grey|white(default)|cyan");
+c.lg("text to output","red|yellow|blue|green|magenta|grey|white(default)|cyan");
 ```
+
 For example
 
 ```
