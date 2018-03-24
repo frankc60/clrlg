@@ -10,10 +10,11 @@
     "logging",
     "color",
     "colour",
-    "log"
+    "log",
+    "console"
   ],
   "author": "frankc60",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "colors": "^1.2.1",
     "moment": "^2.21.0"

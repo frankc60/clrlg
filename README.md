@@ -98,7 +98,7 @@ setTimeout(() => {
 
 ## Running the tests
 
-Mocha is used to unit test clrlg. Currently this is minimalistic, and proves the build is successful. From the command line:
+Mocha is used to unit test clrlg. Currently this is minimalistic to prove the build is successful. From the command line:
 
 ```
 npm test
