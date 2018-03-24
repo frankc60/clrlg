@@ -37,13 +37,18 @@ Assign a variable to the constructor.
 let c = new clrlg();
 ```
 
-Now output from anywhere in your code.
+Now output from anywhere in your code using he **lg** method.
 
 ```
 c.lg("default color output");
 ```
 
-Output different colors.
+Output using many different colors with the second parameter.
+
+```
+c.lg("color output","red|yellow|blue|green|magenta|grey|white(default)|cyan");
+```
+For example
 
 ```
 c.lg("red","red"); //add second parameter of color
