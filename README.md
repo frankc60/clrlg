@@ -11,14 +11,14 @@ Require the **clrlg** into your node app, and then use it instead of the standar
 
 To use the **clrlg** module you first need to install it into your app project. We recommend installing it globally (-g)
 
-```
+```js
 $ npm install -g clrlg 
 ```
 
 To install just for your current project, from the project folder:
 
-```
-$ npm install --save clrlg 
+```js
+npm install --save clrlg 
 ```
 
 ### Using
@@ -27,31 +27,31 @@ To use **clrlg** inside your project app.
 
 In your code include the installed module.
 
-```
+```js
 const clrlg = require("clrlg");
 ```
 
 Now assign a variable to the constructor.
 
-```
+```js
 let c = new clrlg();
 ```
 
 Now output to the terminal from anywhere in your code using he **lg** method.
 
-```
+```js
 c.lg("default color output");
 ```
 
 Output using many different colors with the second parameter.
 
-```
+```js
 c.lg("text to output","red|yellow|blue|green|magenta|grey|white(default)|cyan");
 ```
 
 For example
 
-```
+```js
 c.lg("red","red"); //add second parameter of color
 
 c.lg("yellow","yellow");
@@ -73,7 +73,7 @@ c.lg("non color","fishcolor"); //enter a non existent color.
 
 Output timestamp prefix.
 
-```
+```js
 c.timestamp = true; //turn on prefix timestamp
 
 c.lg("output some text");
@@ -89,7 +89,7 @@ c.lg("blue without timestamp prefix","blue");
 
 Setup a timer.
 
-```
+```js
 c.start("a"); //start timer
 
 setTimeout(() => {
@@ -101,7 +101,7 @@ setTimeout(() => {
 
 Mocha is used to unit test clrlg. Currently this is minimalistic to prove the build is successful. From the command line:
 
-```
+```js
 npm test
 ```
 
