@@ -28,9 +28,9 @@ To use **clrlg** inside your project app.
 In your code include the installed module.
 
 ```js
-const c~~lrlg~~ = require("clrlg");
+const c = require("clrlg");
 
-~~const c = new c();~~ not required
+//const c = new clrlg(); not longer constructor 'new' required
 ```
 
 Now output to the terminal from anywhere in your code using he **lg** method.
