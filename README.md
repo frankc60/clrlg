@@ -28,13 +28,7 @@ To use **clrlg** inside your project app.
 In your code include the installed module.
 
 ```js
-const clrlg = require("clrlg");
-```
-
-Now assign a variable to the constructor.
-
-```js
-let c = new clrlg();
+const c = require("clrlg");
 ```
 
 Now output to the terminal from anywhere in your code using he **lg** method.

@@ -1,6 +1,6 @@
-const clrlg = require("./index");
+const c = require("./index");
 
-let c = new clrlg();
+//let c = new clrlg();
 
 c.lg("default color");
 

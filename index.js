@@ -82,4 +82,4 @@ const getTs = (f) => {
 */
 }
 
-module.exports = clrlg;
+module.exports = new clrlg();
