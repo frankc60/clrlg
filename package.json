@@ -1,6 +1,6 @@
 {
   "name": "clrlg",
-  "version": "0.0.64",
+  "version": "0.0.65",
   "description": "Color Log",
   "main": "index.js",
   "scripts": {
