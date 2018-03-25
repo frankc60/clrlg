@@ -48,12 +48,19 @@ get timestamp() {
   lg(output,r="white")  {
     if(this.timestamp !== false) { pfx = `${getTs(this.timestampFormat)}:`} else { pfx = "";}
     
+   
+    //console.log("typeof r: " +typeof r);
 
     try {
       console.log(colors[r](`${pfx}${output}`));
     } catch (err) {
       console.log(colors.underline(`${pfx}${output} - invalid color`));
     }
+    if(typeof(r) == "function") {
+      r();
+    }
+
+    
   };
 
   start(id)  {

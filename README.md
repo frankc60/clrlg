@@ -28,7 +28,9 @@ To use **clrlg** inside your project app.
 In your code include the installed module.
 
 ```js
-const c = require("clrlg");
+const c~~lrlg~~ = require("clrlg");
+
+~~const c = new c();~~ not required
 ```
 
 Now output to the terminal from anywhere in your code using he **lg** method.
@@ -89,6 +91,15 @@ c.start("a"); //start timer
 setTimeout(() => {
   c.end("a");
 },5500); //stop timers - after 5.5 seconds
+```
+
+Pass a callback function, so console output describes the callback function.
+
+```js
+c.lg("doing DB lookup of id",() => {
+  //retrieve data from db
+  //return data
+})
 ```
 
 ## Running the tests
