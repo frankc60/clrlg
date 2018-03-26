@@ -2,6 +2,12 @@
 
 Improve the standard console.log output by adding Color Logging, timers and timestamps. High performance and Easy to Setup and Use.
 
+## Features
+
+* Color Output.
+* Incorporate a timer.
+* Prefix logging with a timestamp.
+* Supply a callback to be run once logging is done.
 
 ## Getting Started
 
@@ -93,7 +99,7 @@ setTimeout(() => {
 },5500); //stop timers - after 5.5 seconds
 ```
 
-Pass a callback function, so console output describes the callback function.
+Pass a callback function, so console output can describe the callback function.
 
 ```js
 c.lg("doing DB lookup of id",() => {
